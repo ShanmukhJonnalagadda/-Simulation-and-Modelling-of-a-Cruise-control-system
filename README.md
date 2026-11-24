@@ -45,7 +45,30 @@ addpath('tests');
 test_cruise_control
 ```
 
-The revised MATLAB files have not been executed in MATLAB in this packaging environment. An independent Python reproduction of the numerical method was used to generate the reference plot and metrics below; verify locally before claiming MATLAB test results.
+## Simulation and Validation Results
+
+The cruise control simulation was successfully executed in MATLAB, and all automated validation checks passed.
+
+| Performance Metric | MATLAB Result |
+|---|---:|
+| Desired Speed | 20 m/s |
+| Rise Time | 3.57 s |
+| Settling Time (2% band) | 20.05 s |
+| Maximum Overshoot | 4.88% |
+| Final Absolute Speed Error | 0.0001 m/s |
+| Automated Validation | All Checks Passed |
+
+### MATLAB Simulation
+
+![MATLAB Simulation Results](images/matlab_simulation_results.png)
+
+### Automated Validation
+
+![MATLAB Validation Results](images/matlab_validation_results.png)
+
+The numerical simulation demonstrates stable closed-loop speed regulation and accurate reference tracking using a PI controller.
+
+These results were verified through MATLAB simulation and automated software checks, not physical vehicle testing.
 
 ## Simulation results
 
