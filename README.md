@@ -70,11 +70,6 @@ The numerical simulation demonstrates stable closed-loop speed regulation and ac
 
 These results were verified through MATLAB simulation and automated software checks, not physical vehicle testing.
 
-## Simulation results
-
-![Reference simulation results](images/simulation_results.png)
-
-See [performance analysis](docs/performance_analysis.md) for definitions and numerical reference values.
 
 ## Documentation
 
